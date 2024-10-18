@@ -105,5 +105,5 @@ async function placeOrder(transactionType, tradingSymbol, price, quantity) {
 
 // Start the server
 app.listen(port, () => {
-    console.log(`Backend server is running on http://localhost:${5000}`);
+    console.log(`Backend server is running on http://localhost:${3000}`);
 });
